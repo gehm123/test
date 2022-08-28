@@ -2,7 +2,7 @@ server:
   port: 8082
 eureka:
   client:
-    service-url: #配置eureka的地址信息
+    service-url:
       defaultZone: http://127.0.0.1:10086/eureka
 spring:
   application:

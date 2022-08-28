@@ -3,8 +3,8 @@ server:
 
 spring:
   application:
-    name: eurekaserve #配置eureka的服务名称
+    name: eurekaserve
 eureka:
   client:
-    service-url: #配置eureka的地址信息
+    service-url:
       defaultZone: http://127.0.0.1:10086/eureka
